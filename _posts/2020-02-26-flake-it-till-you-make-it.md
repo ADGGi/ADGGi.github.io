@@ -3,9 +3,9 @@ layout: post
 category: iceberg
 title: ICEBERG란
 subtitle: What Is APACHE ICEBERG
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/iceberghead.jpg
 thumbnail-img: /assets/img/WhatIsIceberg.png
-share-img: /assets/img/path.jpg
+share-img: /assets/img/iceberghead.jpg
 tags: [iceberg, datalake]
 author: ADGGi
 ---
@@ -16,8 +16,8 @@ author: ADGGi
 - Iceberg는 규모, 유용성, 성능 관련 문제를 포함하여 매우 큰 데이터셋을 작업할 때 Apache Hive에서 발생하는 문제를 해결하기 위해 구축되었음.<br/></div>
 <br/>
 <br/>
-> <div class="alert alert-block alert-info"><b>User-Experience Features</b></div>
-> 1. 스키마 진화(Schema Evolution)<br/>
+<div class="alert alert-block alert-info"><b>User-Experience Features</b></div>
+> 1. 스키마 진화(Schema Evolution)<br/>
 > Iceberg의 schema evolution 지원을 통해 사용자는 테이블을 다시 생성할 필요 없이 테이블의 열을 추가,삭제, 이름 바꾸기, 업데이트 및 재정렬이 가능하다. 새로 생성된 모든 열에 고유 ID를 할당하고 이를 자동으로 메타데이터에 추가하여 스키마 변경에 부작용이 없도록 보장함.<br/>
 > <br/>
 > 2. 숨겨진 파티셔닝(Hidden Partitioning)<br/>
@@ -30,7 +30,7 @@ author: ADGGi
 > 이는 과거 데이터와 현재 데이터의 비교가 가능함을 의미한다.<br/>
 <br/>
 <br/>
-> <div class="alert alert-block alert-info"><b>Reliability Features</b></div>
+<div class="alert alert-block alert-info"><b>Reliability Features</b></div>
 > 1. 스냅샷 격리(Snapshot isolation)<br/>
 > 데이터셋을 읽을 때마다 일관된 스냅샷이 표시되도록 보장합니다. 본질적으로 read가 실행 될 당시 존재했던 마지막 커밋된 값을 읽습니다.<br/>
 > 2. 원자적 커밋(Atomic Commits)<br/>
@@ -45,7 +45,7 @@ author: ADGGi
 > 그러나 아이스버그를 사용하면 폴더를 변경하지 않고도 단일 레코드를 직접 대상으로 지정하여 업데이트할 수 있다. 이는 해당 메타데이터에 저장된 레코드 때문에 가능하다.<br/>
 <br/>
 <br/>
-> <div class="alert alert-block alert-info"><b>장점</b></div>
+<div class="alert alert-block alert-info"><b>장점</b></div>
 > 1. 소규모 업데이트에 효울적
 > 파일 형식과 달리 Iceberg는 폴더 수준이 아닌 파일 수준에서 레코드를 가져온다.<br/>
 > 이렇게 하면 더 이상 폴더를 거친 후 파티션을 분할하여 레코드를 업데이트할 필요가 없기 때문에 단일 레코드를 업데이트하는 것이 쉽다.<br/>
@@ -59,7 +59,7 @@ author: ADGGi
 > 아이스버그가 지원하는 쿼리 엔진에는 Dremio, Spark, Flink, Snowflake, Cloudera 및 Trino 등이 있다.<br/>
 <br/>
 <br/>
-> <div class="alert alert-block alert-info"><b>Hive Table</b></div>
+<div class="alert alert-block alert-info"><b>Hive Table</b></div>
 > Hive는 데이터를 Hive Meta Store (RDB) 와 데이터로 나뉘어서 관리한다.<br/>
 > 0.13버전 이후로 transaction을 지원하는데, 파일 수정이 없는 hdfs의 특성상 완벽하게 지원하지는 않는다.<br/>
 > 데이터의 update, delete 작업 시 base파일에 기록하고, 트랜잭션이 발생하면 delta파일에 내용을 기록한다.<br/>
@@ -78,7 +78,7 @@ author: ADGGi
 >      compactor가 압축을 하는 도중에는 table을 일시적으로 사용할 수 없다.<br/>
 <br/>
 <br/>
-> <div class="alert alert-block alert-info"><b>Compactor</b></div>
+<div class="alert alert-block alert-info"><b>Compactor</b></div>
 > Compactor는 ACID 지원을 위해 Metastore 내에서 실행되는 백그라운드 프로세스의 집합을 말한다.<br/>
 > 1.delta파일 압축(Delta File Compaction) <br/>
 > 테이블의 수정 작업이 계속 발생할수록 delta 파일도 계속 생성되기 때문에, 적절한 성능 유지를 위해 압축 수행<br/>
