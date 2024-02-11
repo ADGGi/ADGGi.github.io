@@ -26,6 +26,7 @@ navbar-links:
     - PYTHON: "/category/python"
     - AIRFLOW: "/category/airflow"
     - SPARK: "/category/spark"
+    - ETC: "/category/etc"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
