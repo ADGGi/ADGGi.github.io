@@ -6,7 +6,7 @@ subtitle: What Is APACHE SEATUNNEL
 cover-img: /assets/img/seatunnel.png
 thumbnail-img: /assets/img/seatunnel.png
 share-img: /assets/img/seatunnel.png
-tags: [iceberg, datalake]
+tags: [seatunnel, datalake]
 author: ADGGi
 ---
 
