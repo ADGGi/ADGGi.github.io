@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Udemy CKA Course - Section 10 Summary"
+title: "[Udemy CKA Course] Section10 - 쿠버네티스 개요"
 date: 2024-05-01 20:00:00 +0900
 categories: [Cloud, CKA]
 tags: [k8s, cka]
