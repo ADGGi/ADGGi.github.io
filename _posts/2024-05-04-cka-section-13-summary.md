@@ -6,6 +6,7 @@ categories: [Cloud, CKA]
 tags: [CKA, k8s]
 author: "ADG"
 ---
+이 포스팅은 [Certified Kubernetes Administrator with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) 강의를 듣고 요약한 내용입니다.
 
 ## ETCD의 역할
 
