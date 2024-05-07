@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Udemy CKA Course] Section15 - Kube API Server"
-date: 2024-05-04 20:00:00 +0900
+date: 2024-05-07 20:00:00 +0900
 categories: [Cloud, CKA]
 tags: [CKA, k8s]
 author: "ADG"

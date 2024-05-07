@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "[Udemy CKA Course] Section14 - ETCD Command(Optional)"
-date: 2024-05-04 20:00:00 +0900
+date: 2024-05-06 20:00:00 +0900
 categories: [Cloud, CKA]
-tags: [CKA, ETCD]
+tags: [CKA, k8s]
 author: "ADG"
 ---
 이 포스팅은 [Certified Kubernetes Administrator with Practice Tests](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) 강의를 듣고 요약한 내용입니다.
