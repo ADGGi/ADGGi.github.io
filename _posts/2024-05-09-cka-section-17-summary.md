@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Udemy CKA Course] Section16 - Kube Scheduler"
+title: "[Udemy CKA Course] Section17 - Kube Scheduler"
 date: 2024-05-09 20:00:00 +0900
 categories: [Cloud, CKA]
 tags: [CKA, k8s]
