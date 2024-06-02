@@ -2,7 +2,7 @@
 layout: post
 title: "[CS정리]자료구조"
 date: 2024-06-02 20:00:00 +0900
-categories: [CS, 내용정리]
+categories: [CS, basic]
 tags: [CS, datastructure]
 author: "ADG"
 ---
