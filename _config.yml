@@ -238,3 +238,6 @@ jekyll_compose:
       pin: false
       math: true
       mermaid: true
+
+include:
+  - "assets/img/favicons/favicon.ico"
