@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 platform :ruby do
-  gem 'ffi', '~> 1.17'
+  gem 'ffi', '< 1.17.0'
 end
 
 gem 'csv'
